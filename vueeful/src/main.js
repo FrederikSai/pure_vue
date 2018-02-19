@@ -3,8 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import BootstrapVue from 'bootstrap-vue'
+import MainStyle from '@/style/style.scss'
 
 Vue.config.productionTip = false
+
+Vue.use(BootstrapVue)
+Vue.use(MainStyle)
 
 /* eslint-disable no-new */
 new Vue({
